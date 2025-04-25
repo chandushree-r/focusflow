@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f5ff;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background: #a855f7;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 5px solid #9333ea;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .habit-input {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .habit-input input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .habit-input button {
+    padding: 0.75rem 1.5rem;
+    background-color: #9333ea;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .habit-input button:hover {
+    background-color: #7e22ce;
+  }
+  
+  ul#habitList {
+    list-style: none;
+  }
+  
+  .habit-item {
+    background: white;
+    border: 2px solid #e5e7eb;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .habit-item.completed {
+    background: #d9f99d;
+    text-decoration: line-through;
+    color: #4d7c0f;
+  }
+  
+  .habit-buttons button {
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background-color: #4ade80;
+    color: #065f46;
+  }
+  
+  .delete-btn {
+    background-color: #f87171;
+    color: #7f1d1d;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3e8ff;
+    font-size: 0.9rem;
+  }
+  
